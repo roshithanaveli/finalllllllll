@@ -1,0 +1,206 @@
+@CHARSET "ISO-8859-1";
+
+body
+{
+
+       background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(bg.jpg);
+
+       height:100vh;
+
+       background-size:cover;
+
+       background-position:center;
+       color:white;
+
+}
+h2
+{
+       color:white;
+}
+#otc
+
+{
+
+       color:#66ccff;
+
+       text-align:center;
+
+}
+
+.registerdiv
+
+{
+
+       width:500px;
+
+       padding:5% 0 0;
+
+       margin:auto;
+
+}
+
+.form
+
+{
+
+       position:relative;
+
+       z-index:1;
+
+       background:rgba(7,0,0,0.4);
+
+       max-width:360px;
+
+       margin:0 auto 100px;
+
+       padding:45px;
+
+  text-align:right;
+
+  margin-right:5px;
+
+}
+
+.form input[name="aq"]
+
+{
+
+       font-family: "Roboto", sans-serif;
+
+       outline:1;
+
+       background: #f2f2f2;
+
+       /* width:"28" height:"20"; */
+
+       size:4;
+
+       maxlength:10;
+
+       border:0;
+
+       margin:0 0 15px;
+
+       padding-left:10px;
+
+       padding-right:10px;
+
+       padding-bottom:5px;
+
+       padding-top:5px;
+
+       box-sizing:border-box;
+
+       font-size:14px;
+          float:left;
+           height:30px;
+       border-radius:10px;
+
+}
+
+.form label
+
+{
+
+       font-family: "Roboto", sans-serif;
+
+       color: #f2f2f2;
+       left:auto;
+display:inline-block;
+       width:auto;
+          float:left;
+
+}
+
+.registerdiv [type="button"]
+{
+       text-align:left;
+}
+
+.form select
+{
+left:auto;
+min-width: 150px;
+display:inline-block;
+float:left;
+} 
+
+.aa
+{
+       float:left;
+}
+*:required {
+  background-color:  rgba(200, 0, 0, 0.85);
+}
+.registerdiv input[type="submit"],
+.registerdiv input[type="reset"],
+.registerdiv input[type="next"]
+{
+  font-family: "Times New Roman", Times, serif;
+
+       text-transform: uppercase;
+
+       outline:0;
+
+       background: #ff99cc;
+       
+       
+
+       width:35%;
+
+       border:0;
+
+       padding:15px;
+
+       text-color:#FFFFFf;
+
+       font-size:12px;
+
+       cursor:pointer;
+
+       display: inline-block;
+        height:40px;
+       border-radius:10px;
+}
+
+.nav-bar
+{
+       
+       top:10%;
+       left:90%;
+       float:right;
+       list-style:none;
+       
+       
+}
+img{
+       float:right;
+       border-radius: 50%;
+       
+         
+}
+
+     
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}

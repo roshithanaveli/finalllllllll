@@ -1,0 +1,479 @@
+body
+
+{
+
+       background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(bg.jpg);
+
+       height:100vh;
+
+       background-size:cover;
+
+       background-position:center;
+
+}
+
+.login
+
+{
+
+       width:360px;
+
+       padding:5% 0 0;
+
+       margin:auto;
+
+}
+
+.form
+
+{
+
+       position:relative;
+
+       z-index:1;
+
+       background:rgba(7,0,0,0.4);
+
+       max-width:360px;
+
+       margin:0 auto 100px;
+
+       padding:45px;
+
+       text-align:center;
+
+}
+
+.form user
+
+{
+
+       font-family: "Roboto", sans-serif;
+
+       outline:1;
+
+       background: #f2f2f2;
+
+       width:100%;
+
+       border:0;
+
+       margin:0 0 15px;
+
+       padding:15px;
+
+       box-sizing:border-box;
+
+       font-size:14px;
+        display: inline-block;
+
+}
+
+#button1
+
+{
+
+       font-family: "Roboto",sans-serif;
+
+       text-transform: uppercase;
+
+       outline:0;
+
+     background-color: #008CBA;
+
+       width:25%;
+
+       border:0;
+
+       padding:15px;
+
+       color:#FFFFF;
+
+       font-size:10px;
+
+       cursor:pointer;
+
+       display: inline-block;
+
+}
+
+#button2
+
+{
+
+       font-family: "Roboto",sans-serif;
+
+       text-transform: uppercase;
+
+       outline:0;
+
+           background-color: #008CBA;
+
+       width:40%;
+
+       border:0;
+
+       padding:15px;
+
+       color:#FFFFF;
+
+       font-size:12px;
+
+       cursor:pointer;
+
+       display: inline-block;
+
+}
+
+#button3{
+
+       font-family: "Roboto",sans-serif;
+
+       text-transform: uppercase;
+
+       outline:0;
+
+           background: #008CBA;
+
+       width:25%;
+
+       border:0;
+
+       padding:15px;
+
+       color:#FFFFF;
+
+       font-size:10px;
+
+       cursor:pointer;
+
+       display: inline-block;
+
+}
+
+ 
+
+#otc
+
+{
+
+       color:#66ccff;
+
+       text-align:center;
+
+}
+
+.message
+
+{
+
+/*     color: #ffffff; */
+
+       margin:15px 0 0;
+
+       color:aliceblue;
+
+       font-size:12px;
+
+}
+.form span
+{
+	color:#ffffff;
+	 
+}
+#link
+
+{
+
+       color:#4CAF50;
+
+       text-decoration:none;
+
+}
+/* FUULPAGE */
+/* <!DOCTYPE html>
+
+<html>
+
+       <head>
+
+              <meta charset="ISO-8859-1">
+
+              <title>Login</title>
+
+              <link rel="stylesheet" href="style.css">
+
+              <div id=otc>
+
+              <h1>Online Training Portal</h1>
+
+              </div>
+
+       </head>
+
+       <body>
+
+              <div class="login">
+
+                     <div class="form">
+
+                           <form class="register-form">
+
+                                                                                                                                                
+                                  <input id="user" type="text" placeholder="user name" pattern="[a-z0-9]+" title="Only Alphanumeric"/><br><br>
+
+                                  <input id="user" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="password"/><br><br>
+                                                                                                                
+                                                                                                                                                <button id=button1 type="submit"><a href="Trainee.html">login</a></button>
+                                                                                                                                                <!-- <button id=button1 ><a id=link href ="Trainee.html" ></a><font color=white>login</font></button> -->
+
+                                                  &nbsp;&nbsp;&nbsp;
+                                                  <button id=button3>reset</button>
+                                                  
+
+                                                <p class ="message">New User? &nbsp Register Here  &nbsp <a id=link href="register.html">Register</a></p>
+                
+                                 </div>
+                               
+                             </form>
+
+                     </div>
+
+              </div>
+
+
+
+       </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+style---
+
+
+body
+
+{
+
+       background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(bg.jpg);
+
+       height:100vh;
+
+       background-size:cover;
+
+       background-position:center;
+         
+
+}
+
+.login
+
+{
+
+       width:360px;
+
+       padding:5% 0 0;
+
+       margin:auto;
+        
+        
+}
+
+.form
+
+{
+
+       position:relative;
+
+       z-index:1;
+
+       background:rgba(7,0,0,0.4);
+
+       max-width:360px;
+
+       margin:0 auto 100px;
+
+       padding:45px;
+
+       text-align:center;
+       
+
+}
+
+.form user
+
+{
+
+       font-family: "Times New Roman", Times, serif;
+
+       outline:1;
+
+       background: #f2f2f2;
+
+       width:100%;
+
+       border:0;
+
+       margin:0 0 15px;
+
+       padding:15px;
+
+       box-sizing:border-box;
+
+       font-size:14px;
+        display: inline-block;
+           height:40px;
+       border-radius:10px
+       
+
+}
+
+#button1
+
+{
+
+      
+       font-family: "Times New Roman", Times, serif;
+
+       text-transform: uppercase;
+
+       outline:0;
+
+       background: #ff99cc;
+       
+       
+
+       width:25%;
+
+       border:0;
+
+       padding:15px;
+
+       text-color:#FFFFFf;
+
+       font-size:12px;
+
+       cursor:pointer;
+
+       display: inline-block;
+        height:40px;
+       border-radius:10px;
+
+}
+
+#button2
+
+{
+
+       font-family: "Times New Roman", Times, serif;
+
+       text-transform: uppercase;
+
+       outline:0;
+
+       background: #ff99cc;
+
+       width:25%;
+
+       border:0;
+
+       padding:15px;
+
+       color:#FFFFFf;
+
+       font-size:12px;
+
+       cursor:pointer;
+
+       display: inline-block;
+        height:40px;
+       border-radius:10px;
+
+}
+
+
+#button3{
+
+       font-family: "Times New Roman", Times, serif;
+
+       text-transform: uppercase;
+
+       outline:0;
+
+       background: #ff99cc;
+
+       width:25%;
+
+       border:0;
+
+       padding:15px;
+
+       color:#FFFFFf;
+
+       font-size:12px;
+
+       cursor:pointer;
+
+       display: inline-block;
+        height:40px;
+       border-radius:10px;
+
+}
+
+
+
+#otc
+
+{
+
+       color:#66ccff;
+
+       text-align:center;
+       
+
+}
+
+
+.message
+
+{
+
+
+
+       margin:15px 0 0;
+
+       color:aliceblue;
+
+       font-size:12px;
+    
+
+}
+.form span
+{
+                color:#ffffff;
+                ;
+                
+}
+#link
+
+{
+
+       color:#4CAF50;
+
+       text-decoration:none;
+
+}
+.login a,
+.logib button
+{
+                color:#fff;
+                
+}
+ */

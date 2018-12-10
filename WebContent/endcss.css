@@ -1,0 +1,131 @@
+body
+
+{
+
+       background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(bg.jpg);
+
+       height:100vh;
+
+       background-size:cover;
+
+       background-position:center;
+         
+
+}
+
+.login
+
+{
+
+       width:360px;
+
+       padding:5% 0 0;
+
+       margin:auto;
+        
+        
+}
+
+.form
+
+{
+
+       position:relative;
+
+       z-index:1;
+
+       background:rgba(7,0,0,0.4);
+
+       max-width:360px;
+
+       margin:0 auto 100px;
+
+       padding:45px;
+
+       text-align:center;
+       
+
+}
+
+#button1
+
+{
+
+      
+       font-family: "Times New Roman", Times, serif;
+
+       text-transform: uppercase;
+
+       outline:0;
+
+       background: #ff99cc;
+       
+       
+
+       width:45%;
+
+       border:0;
+
+       padding:15px;
+
+       text-color:#FFFFFf;
+
+       font-size:11px;
+
+       cursor:pointer;
+
+       display: inline-block;
+      height:15px;
+       border-radius:30px;
+
+}
+
+
+
+#otc
+
+{
+
+       color:#66ccff;
+
+       text-align:center;
+       
+
+}
+
+
+.message
+
+{
+
+
+
+       margin:15px 0 0;
+
+       color:aliceblue;
+
+       font-size:12px;
+    
+
+}
+.form span
+{
+       color:#ffffff;
+       ;
+       
+}
+#link
+
+{
+
+       color:#4CAF50;
+
+       text-decoration:none;
+
+}
+.login a,
+.logib button
+{
+       color:#fff;
+       
+}
